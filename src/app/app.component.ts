@@ -12,7 +12,7 @@ import { KeycloakService } from 'keycloak-angular';
 export class AppComponent implements OnInit {
   title = 'keycloak-angular';
 
-  constructor( private keycloakService: KeycloakService) {
+  constructor() {
   }
 
   ngOnInit(): void {
